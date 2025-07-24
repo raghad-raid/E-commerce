@@ -1,0 +1,37 @@
+.logo-brand {
+  font-family: 'Montserrat', sans-serif; 
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 1;
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+}
+.logo-top,
+.logo-bottom {
+  background: linear-gradient(135deg, #1a1919, #919090); 
+  background-clip: text;
+  color: transparent;
+}
+.logo-top {
+  font-size: 38px;
+  letter-spacing: 3.5px;
+  position: relative;
+  padding-left: 22px;
+  top: 14px;
+}
+
+.logo-bottom {
+  font-size: 36px;
+  letter-spacing: 2px;
+}
+.sticky-navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1050; 
+  background-color: white;
+}
+
+.form-select{
+   cursor: pointer;
+}

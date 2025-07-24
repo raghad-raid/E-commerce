@@ -1,0 +1,36 @@
+{
+  "NAV": {
+    "HOME": "Home",
+    "PRODUCTS": "Products",
+    "SEARCH": "Search",
+    "SEARCH_PLACEHOLDER": "Search products..."
+  },
+  "HOME": {
+     "HERO_TITLE_LINE1": "Discover Unique Finds at",
+    "HERO_TITLE_LINE2": "Unbeatable Prices!",
+    "HERO_SUBTITLE": "Shop smarter, live better — only at Bayesta",
+    "SHOP_NOW": "Shop Now",
+    "FEATURED_TITLE": "Featured Products",
+    "FEATURED_SUBTITLE": "Check out our hand-picked favorites just for you."
+  },
+  "CATEGORIES": {
+    "WOMEN": "Women's clothing",
+    "MEN": "Men's clothing",
+    "JEWELERY": "Jewelery",
+    "ELECTRONICS": "Electronics"
+  },
+   "CART": {
+    "EMPTY_TITLE": "Your cart is empty",
+    "EMPTY_MESSAGE": "Add some products to the cart to see them here.",
+    "TITLE": "Your Cart ({{count}})",
+    "PRICE": "Price: ${{price}}",
+    "TOTAL": "Total: ${{total}}"
+  },
+  
+  "DETAILS": {
+    "REVIEWS": "reviews",
+    "ADD_TO_CART": "Add to Cart"
+  }
+
+
+}

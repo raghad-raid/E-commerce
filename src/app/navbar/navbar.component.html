@@ -1,0 +1,58 @@
+<nav class="navbar navbar-expand-lg sticky-navbar shadow-sm">
+  <div class="container d-flex justify-content-between align-items-center">
+
+    <a class="logo-brand" routerLink="/"> 
+      <span class="logo-top">Buy</span><br />
+      <span class="logo-bottom">Esta.</span>
+    </a>
+
+    <div class="d-flex gap-5 align-items-center">
+      <a [routerLink]="['/']" class="nav-link text-dark text-center fs-5 fw-bold">
+        <small>{{ 'NAV.HOME' | translate }}</small>
+      </a>
+      <a [routerLink]="['/products']" class="nav-link text-dark text-center fs-5 fw-bold">
+        <small>{{ 'NAV.PRODUCTS' | translate }}</small>
+      </a>
+      <select (change)="changeLang($event)" class="form-select w-auto ">
+        <option value="en">English</option>
+        <option value="ar">العربية</option>
+      </select>
+    </div>
+
+    <form class="d-flex" >
+      <input
+        class="form-control me-2"
+        type="search"
+        [placeholder]="'NAV.SEARCH_PLACEHOLDER' | translate"
+        aria-label="search"
+        name="search"
+      />
+      <button class="btn search-btn" type="submit">
+        {{ 'NAV.SEARCH' | translate }}
+      </button>
+    </form>
+
+    <button class="btn btn-sm ms-2" (click)="toggleDarkMode()">
+      <i [ngClass]="isDarkMode ? 'bi bi-moon-fill' : 'bi bi-sun-fill'"></i>
+    </button>
+
+    <div class="d-flex align-items-center">
+      <div class="d-flex gap-3 me-4">
+        <a href="https://facebook.com" target="_blank" class="text-dark fs-5">
+          <i class="bi bi-facebook"></i>
+        </a>
+        <a href="https://wa.me/1234567890" target="_blank" class="text-dark fs-5">
+          <i class="bi bi-whatsapp"></i>
+        </a>
+        <a href="https://instagram.com" target="_blank" class="text-dark fs-5">
+          <i class="bi bi-instagram"></i>
+        </a>
+      </div>
+
+      <a class="btn fs-4 d-flex align-items-center" routerLink="/cart" aria-label="Cart">
+        <i class="bi bi-bag-check"></i>
+      </a>
+    </div>
+
+  </div>
+</nav>

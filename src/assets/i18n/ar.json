@@ -1,0 +1,33 @@
+{
+  "NAV": {
+    "HOME": "الرئيسية",
+    "PRODUCTS": "المنتجات",
+    "SEARCH": "بحث",
+    "SEARCH_PLACEHOLDER": "ابحث عن المنتجات..."
+  },
+  "HOME": {
+    "HERO_TITLE_LINE1": "اكتشف منتجات فريدة في",
+    "HERO_TITLE_LINE2": "أسعار لا تقارن!",
+    "HERO_SUBTITLE": " تسوّق بذكاء، وارتقِ بحياتك — فقط على",
+    "SHOP_NOW": "تسوّق الآن",
+    "FEATURED_TITLE": "منتجات مميزة",
+    "FEATURED_SUBTITLE": "اطّلع على اختياراتنا المفضّلة خصيصًا لك."
+  },
+   "CATEGORIES": {
+    "WOMEN": "ملابس نسائية ",
+    "MEN": "ملابس رجالية",
+    "JEWELERY": "المجوهرات",
+    "ELECTRONICS": "إلكترونيات"
+  },
+  "CART": {
+    "EMPTY_TITLE": "سلتك فارغة",
+    "EMPTY_MESSAGE": "أضف بعض المنتجات إلى السلة لتظهر هنا.",
+    "TITLE":  "سلتك ({{count}})",
+    "PRICE": "السعر: ${{price}}",
+    "TOTAL": "المجموع: ${{total}}"
+  },
+   "DETAILS": {
+    "REVIEWS": "مراجعة",
+    "ADD_TO_CART": "أضف إلى السلة"
+  }
+}
